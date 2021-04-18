@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 import { ArrowRight } from 'react-feather'
 
 import Menu from '../components/Menu'
@@ -7,35 +8,42 @@ import Title from '../components/Title'
 import Text from '../components/Text'
 import Button from '../components/Button'
 
+import {Container, ButtonContainer} from '../styles/Home'
+
 interface HomeProps {
   org: any
 }
 
 const Home = ({ org } : HomeProps) => {
+  const router = useRouter()
+
+  const handleNavigate = (e :any) => {
+    e.preventDefault()
+    router.push('/question/1')
+  }
+
   return (
     <>
       <Menu />
-      <div>
         <Head>
           <title>Homepage</title>
         </Head>
-        <main style={{padding: '0 20px'}}>
+        <Container>
           <Title style={{marginTop:'24px'}}>
             Teste de arquétipos
           </Title>
           <Text style={{marginTop: '24px'}}>
             Cada arquétipo tem a sua força, medo, potências e sua fraqueza. Saber esse pontos são a chave que você precisa buscar não só um maior autoconhecimento mas um maior domínio sobre sí.
           </Text>
-          <div style={{width: '100%', display: 'flex', justifyContent:"flex-end", marginTop:'24px'}}>
-            <Button style={{width: '126px'}}>
+          <ButtonContainer>
+            <Button style={{width: '126px'}} onClick={handleNavigate}>
               <Text type="button">
                 Iniciar o teste
               </Text>
               <ArrowRight size='12px' />
             </Button>
-          </div>
-        </main>
-      </div>
+          </ButtonContainer>
+        </Container>
     </>
   )
 }
