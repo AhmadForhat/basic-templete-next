@@ -7,8 +7,8 @@ export const ButtonContainer = styled.button<ButtonProps>`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: ${({theme}) => theme.colors.primaryLight};
-    color: ${({theme}) => theme.colors.white};
+    background-color: ${({theme}) => theme.colors.primary};
+    color: ${({theme}) => theme.colors.ice};
     width: 100%;
     border-radius: 8px;
     padding: 8px 0;

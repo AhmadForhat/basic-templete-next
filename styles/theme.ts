@@ -1,11 +1,16 @@
 const themes = {
   colors: {
-    background: '#F5F3EA',
+    grayDark: '#4D4141',
+    gray: '#707070',
+    grayLight: '#9E9FA3',
+    grayLighter: '#BFBFBF',
     text: '#9E9FA3',
-    primary: '#1B0418',
-    white: '#F5F3EA',
-    gray: '#858585',
-    primaryLight: '#5E0E53',
+    primaryDarker: '#1B0418',
+    primaryDark: '#470B3F',
+    primary: '#5E0E53',
+    primaryLight: '#750C67',
+    background: '#F5F3EA',
+    ice: '#F5F3EA',
   },
   font: {
     size: {

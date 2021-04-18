@@ -29,14 +29,21 @@ const Home = ({ org } : HomeProps) => {
           <title>Homepage</title>
         </Head>
         <Container>
-          <Title style={{marginTop:'24px'}}>
+          <Title
+            style={{marginTop:'24px'}}
+          >
             Teste de arquétipos
           </Title>
-          <Text style={{marginTop: '24px'}}>
+          <Text
+            style={{marginTop: '24px'}}
+          >
             Cada arquétipo tem a sua força, medo, potências e sua fraqueza. Saber esse pontos são a chave que você precisa buscar não só um maior autoconhecimento mas um maior domínio sobre sí.
           </Text>
           <ButtonContainer>
-            <Button style={{width: '126px'}} onClick={handleNavigate}>
+            <Button
+              style={{width: '126px'}}
+              onClick={handleNavigate}
+            >
               <Text type="button">
                 Iniciar o teste
               </Text>

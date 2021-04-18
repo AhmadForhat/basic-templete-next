@@ -20,6 +20,6 @@ export const TitleComponent = styled.p<TitleProps>`
       type
     }) => type ==='subTitle'
     ? theme.colors.gray
-    : theme.colors.primary
+    : theme.colors.primaryDarker
   };
 `

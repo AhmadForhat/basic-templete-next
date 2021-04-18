@@ -10,9 +10,9 @@ export const Container = styled.div<ContainerProps>`
     justify-content: space-between;
     padding: 0 20px;
     align-items: center;
-    background: ${({theme}) => theme.colors.primary};
+    background: ${({theme}) => theme.colors.primaryDarker};
 `
 
 export const IconMenu = styled(Menu)`
-  color: ${({theme}) => theme.colors.white};
+  color: ${({theme}) => theme.colors.ice};
 `
