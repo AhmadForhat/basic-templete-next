@@ -1,6 +1,11 @@
 import React from 'react'
-import Text from '../components/Text'
 import Head from 'next/head'
+import { ArrowRight } from 'react-feather'
+
+import Menu from '../components/Menu'
+import Title from '../components/Title'
+import Text from '../components/Text'
+import Button from '../components/Button'
 
 interface HomeProps {
   org: any
@@ -8,15 +13,30 @@ interface HomeProps {
 
 const Home = ({ org } : HomeProps) => {
   return (
-    <div>
-      <Head>
-        <title>Homepage</title>
-      </Head>
-      <main>
-        <Text>{org.description}</Text>
-        <a href={org.blog}>Stie: {org.blog}</a>
-      </main>
-    </div>
+    <>
+      <Menu />
+      <div>
+        <Head>
+          <title>Homepage</title>
+        </Head>
+        <main style={{padding: '0 20px'}}>
+          <Title style={{marginTop:'24px'}}>
+            Teste de arquétipos
+          </Title>
+          <Text style={{marginTop: '24px'}}>
+            Cada arquétipo tem a sua força, medo, potências e sua fraqueza. Saber esse pontos são a chave que você precisa buscar não só um maior autoconhecimento mas um maior domínio sobre sí.
+          </Text>
+          <div style={{width: '100%', display: 'flex', justifyContent:"flex-end", marginTop:'24px'}}>
+            <Button style={{width: '126px'}}>
+              <Text type="button">
+                Iniciar o teste
+              </Text>
+              <ArrowRight size='12px' />
+            </Button>
+          </div>
+        </main>
+      </div>
+    </>
   )
 }
 

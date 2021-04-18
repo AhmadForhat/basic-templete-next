@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from "styled-components";
 
-interface TextProps  extends React.HTMLAttributes<HTMLDivElement> {
+interface TextProps  extends React.HTMLAttributes<HTMLHeadingElement> {
   textType?: string
 }
 
@@ -10,15 +10,15 @@ export const TextComponent = styled.p<TextProps>`
   font-size: ${({
       theme,
       textType
-    }) => textType ==='body'
-    ? theme.font.size.bodyText
-    : theme.font.size.buttonText
+    }) => textType ==='button'
+    ? theme.font.size.buttonText
+    : theme.font.size.bodyText
   };
   font-weight: ${({
       theme,
       textType
-    }) => textType ==='body'
-      ? theme.font.weight.normal
-      : theme.font.weight.bold
+    }) => textType ==='button'
+      ? theme.font.weight.bold
+      : theme.font.weight.normal
     };
 `

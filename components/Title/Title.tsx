@@ -1,15 +1,19 @@
 import React from "react"
 
-interface ContainerProps extends React.HTMLAttributes<HTMLDivElement> {
+import {TitleComponent} from './styles'
+
+interface TitleProps extends React.HTMLAttributes<HTMLHeadingElement> {
+  /** Conteudo envelopado pelo container */
+  type?: 'subTitle' | 'normal'
   /** Conteudo envelopado pelo container */
   children: React.ReactNode
 }
 
-const Title = ({ children, ...props }: ContainerProps) => {
+const Title = ({ children, type, ...props }: TitleProps) => {
   return (
-    <p {...props}>
+    <TitleComponent type={type} {...props}>
       {children}
-    </p>
+    </TitleComponent>
   )
 }
 

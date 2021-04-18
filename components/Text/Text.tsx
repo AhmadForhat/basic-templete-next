@@ -1,15 +1,15 @@
 import {TextComponent} from './styles'
 
-interface ContainerProps extends React.HTMLAttributes<HTMLDivElement> {
+interface TextProps extends React.HTMLAttributes<HTMLHeadingElement> {
   /** Conteudo envelopado pelo container */
-  textType?: string
+  type?: 'normal' | 'button'
   /** Conteudo envelopado pelo container */
   children: React.ReactNode
 }
 
-const Text = ({ children, textType, ...props }: ContainerProps) => {
+const Text = ({ children, type, ...props }: TextProps) => {
   return (
-    <TextComponent textType={textType} {...props}>
+    <TextComponent textType={type} {...props}>
       {children}
     </TextComponent>
   )
