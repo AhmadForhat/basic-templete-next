@@ -14,4 +14,5 @@ export const ButtonContainer = styled.button<ButtonProps>`
     padding: 8px 0;
     border: none;
     outline: none;
+    cursor: pointer;
 `
