@@ -4,7 +4,7 @@ import styled from "styled-components";
 interface DivProps extends React.HTMLAttributes<HTMLDivElement> {}
 
 export const Container = styled.main<DivProps>`
-    padding: 0 20px;
+  padding: 0 20px;
 `
 
 export const ButtonContainer = styled.div<DivProps>`
