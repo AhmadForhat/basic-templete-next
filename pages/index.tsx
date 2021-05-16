@@ -7,14 +7,14 @@ import Menu from '../components/Menu'
 import Title from '../components/Title'
 import Text from '../components/Text'
 import Button from '../components/Button'
+import Card from '../components/Card'
 
-import {Container, ButtonContainer} from '../styles/Home'
+import arrayCards from '../utils/arrayCards'
 
-interface HomeProps {
-  org: any
-}
+import {Container, ButtonContainer, ContainerCards} from '../styles/Home'
 
-const Home = ({ org } : HomeProps) => {
+
+const Home = () => {
   const router = useRouter()
 
   const handleNavigate = (e :any) => {
@@ -50,21 +50,19 @@ const Home = ({ org } : HomeProps) => {
               <ArrowRight size='12px' />
             </Button>
           </ButtonContainer>
+          <ContainerCards>
+            {
+              arrayCards.map(cardInfo => (
+                <Card
+                  key={cardInfo.number}
+                  {...cardInfo}
+                />
+              ))
+            }
+          </ContainerCards>
         </Container>
     </>
   )
 }
 
 export default Home
-
-export const getStaticProps = async () => {
-  const url = "https://api.github.com/orgs/rocketseat"
-  const getResponse = await fetch(url)
-  const data = await getResponse.json()
-
-  return {
-    props: {
-      org: data,
-    }
-  }
-}

@@ -13,3 +13,10 @@ export const ButtonContainer = styled.div<DivProps>`
   justify-content:flex-end;
   margin-top:24px;
 `
+
+export const ContainerCards = styled.div`
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 42px 0;
+`
