@@ -1,0 +1,321 @@
+{
+  "wise": {
+    "questions": {
+      "0": {
+        "question": "Procuro analisar todos os prós e contras de uma situação antes de tomar uma decisão",
+        "pontuation": null
+      },
+      "1": {
+        "question": "Em uma conversa, gosto de demonstrar que tenho conhecimento profundo sobre um tema",
+        "pontuation": null
+      },
+      "2": {
+        "question": "Em uma discussão, quando sinto que não tenho embasamento, prefiro ficar calado",
+        "pontuation": null
+      },
+      "3": {
+        "question": "Fico irritado com perguntas superficiais",
+        "pontuation": null
+      },
+      "4": {
+        "question": "Posso passar horas estudando um tema",
+        "pontuation": null
+      },
+      "5": {
+        "question": "Tenho dificuldade em ser sucinto",
+        "pontuation": null
+      }
+    },
+    "result": 0
+  },
+  "ordinary_guy": {
+    "questions": {
+      "0": {
+        "question": "Ser discreto é importante",
+        "pontuation": null
+      },
+      "1": {
+        "question": "Não gosto de participar de dinâmicas de grupo",
+        "pontuation": null
+      },
+      "2": {
+        "question": "Planejo minha vida para que ela seja segura e estável",
+        "pontuation": null
+      },
+      "3": {
+        "question": "Normalmente não sou o primeiro a puxar assunto",
+        "pontuation": null
+      },
+      "4": {
+        "question": "As pessoas dizem que sou prático e que vou direto ao ponto",
+        "pontuation": null
+      },
+      "5": {
+        "question": "Tenho hábitos simples",
+        "pontuation": null
+      }
+    },
+    "result": 0
+  },
+  "creative": {
+    "questions": {
+      "0": {
+        "question": "Minha casa e minha roupa têm cores fortes",
+        "pontuation": null
+      },
+      "1": {
+        "question": "Tenho facilidade em ter ideias diferentes",
+        "pontuation": null
+      },
+      "2": {
+        "question": "Tenho mais facilidade em ter ideias do que em executá-las",
+        "pontuation": null
+      },
+      "3": {
+        "question": "Sou imaginativo e inventivo",
+        "pontuation": null
+      },
+      "4": {
+        "question": "As pessoas me chamam de dramático",
+        "pontuation": null
+      },
+      "5": {
+        "question": "Tenho facilidade em pensar fora da caixa",
+        "pontuation": null
+      }
+    },
+    "result": 0
+  },
+  "outlaw": {
+    "questions": {
+      "0": {
+        "question": "Não tenho receio de ser politicamente incorreto",
+        "pontuation": null
+      },
+      "1": {
+        "question": "Seguir regras é chato",
+        "pontuation": null
+      },
+      "2": {
+        "question": "Não me importo em chocar as pessoas com minha opinião",
+        "pontuation": null
+      },
+      "3": {
+        "question": "Digo o que penso sem medo das consequências ",
+        "pontuation": null
+      },
+      "4": {
+        "question": "Não sigo tendências",
+        "pontuation": null
+      },
+      "5": {
+        "question": "Quando não me conformo com algo, não meço esforços para mudar ",
+        "pontuation": null
+      }
+    },
+    "result": 0
+  },
+  "ruler": {
+    "questions": {
+      "0": {
+        "question": "Penso que, diante de um erro, justificativas são uma perda de tempo ",
+        "pontuation": null
+      },
+      "1": {
+        "question": "Não tenho paciência para repetir informação para alguém",
+        "pontuation": null
+      },
+      "2": {
+        "question": "Não suporto quadros tortos na parede",
+        "pontuation": null
+      },
+      "3": {
+        "question": "Tenho facilidade para perceber erros e falhas",
+        "pontuation": null
+      },
+      "4": {
+        "question": "Dizem que sou crítico",
+        "pontuation": null
+      },
+      "5": {
+        "question": "Sou workaholic",
+        "pontuation": null
+      }
+    },
+    "result": 0
+  },
+  "mage": {
+    "questions": {
+      "0": {
+        "question": "Sigo minha intuição quando tenho que tomar uma decisão importante",
+        "pontuation": null
+      },
+      "1": {
+        "question": "Consigo improvisar sobre um tema sem muita preparação",
+        "pontuation": null
+      },
+      "2": {
+        "question": "Lido bem com situações imprevisíveis",
+        "pontuation": null
+      },
+      "3": {
+        "question": "Tenho prazer em ver ou em realizar transformações radicais",
+        "pontuation": null
+      },
+      "4": {
+        "question": "Procuro surpreender as pessoas com presentes ou bilhetes inesperados",
+        "pontuation": null
+      },
+      "5": {
+        "question": "Quando falo a respeito de uma ideia, gosto que meu ouvinte fique boquiaberto ",
+        "pontuation": null
+      }
+    },
+    "result": 0
+  },
+  "stew": {
+    "questions": {
+      "0": {
+        "question": "Procuro descontrair um ambiente tenso",
+        "pontuation": null
+      },
+      "1": {
+        "question": "Vejo graça em quase tudo",
+        "pontuation": null
+      },
+      "2": {
+        "question": "Adoro contar piadas e histórias engraçadas",
+        "pontuation": null
+      },
+      "3": {
+        "question": "Perco o amigo, mas não perco a piada",
+        "pontuation": null
+      },
+      "4": {
+        "question": "Não deixo de dormir por causa dos problemas",
+        "pontuation": null
+      },
+      "5": {
+        "question": "Dificilmente fico estressado com as pessoas ou as situações",
+        "pontuation": null
+      }
+    },
+    "result": 0
+  },
+  "helpful": {
+    "questions": {
+      "0": {
+        "question": "Penso no bem-estar do outro antes do meu",
+        "pontuation": null
+      },
+      "1": {
+        "question": "Uso roupas práticas e confortáveis",
+        "pontuation": null
+      },
+      "2": {
+        "question": "Quando alguém me pede uma indicação, envio rapidamente as informações ",
+        "pontuation": null
+      },
+      "3": {
+        "question": "Durante meu dia, me pego pensando nas soluções dos problemas das pessoas que conheço",
+        "pontuation": null
+      },
+      "4": {
+        "question": "Fico triste e preocupado quando vejo alguém com problemas ",
+        "pontuation": null
+      },
+      "5": {
+        "question": "Gosto de passar meu tempo livre com minha família",
+        "pontuation": null
+      }
+    },
+    "result": 0
+  },
+  "hero": {
+    "questions": {
+      "0": {
+        "question": "Tenho prazer em realizar atividades físicas que exigem superação de metas",
+        "pontuation": null
+      },
+      "1": {
+        "question": "Competições são saudáveis",
+        "pontuation": null
+      },
+      "2": {
+        "question": "Irrito-me com pessoas que se vitimizam ",
+        "pontuation": null
+      },
+      "3": {
+        "question": "Dizem que sou incansável ",
+        "pontuation": null
+      },
+      "4": {
+        "question": "Gosto de ter a agenda cheia de atividades e compromissos",
+        "pontuation": null
+      },
+      "5": {
+        "question": "Dizem que tenho muita energia e que não paro quieto",
+        "pontuation": null
+      }
+    },
+    "result": 0
+  },
+  "explorer": {
+    "questions": {
+      "0": {
+        "question": "Não gosto de dar satisfações da minha vida particular",
+        "pontuation": null
+      },
+      "1": {
+        "question": "Dizem que sou muito entusiasmado com a vida",
+        "pontuation": null
+      },
+      "2": {
+        "question": "Quando penso numa ideia, gosto de trazer vários pontos de vista",
+        "pontuation": null
+      },
+      "3": {
+        "question": "Tenho objetos de vários lugares do mundo na minha casa",
+        "pontuation": null
+      },
+      "4": {
+        "question": "Gosto de roupa confortável e informal",
+        "pontuation": null
+      },
+      "5": {
+        "question": "Não gosto de lugares fechados ou de ficar muito tempo no mesmo lugar",
+        "pontuation": null
+      }
+    },
+    "result": 0
+  },
+  "lover": {
+    "questions": {
+      "0": {
+        "question": "Gosto de ambientes e lugares bonitos ",
+        "pontuation": null
+      },
+      "1": {
+        "question": "Não gosto de sair sem me arrumar",
+        "pontuation": null
+      },
+      "2": {
+        "question": "Tenho facilidade em fazer networking",
+        "pontuation": null
+      },
+      "3": {
+        "question": "Ter autoestima alta é importante para mim",
+        "pontuation": null
+      },
+      "4": {
+        "question": "Fico íntimo com certa facilidade",
+        "pontuation": null
+      },
+      "5": {
+        "question": "Não tenho dificuldade em conversar com alguém que acabei de conhecer",
+        "pontuation": null
+      }
+    },
+    "result": 0
+  }
+}
