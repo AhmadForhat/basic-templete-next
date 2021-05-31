@@ -13,7 +13,7 @@ const Banner: React.FC = () => {
 
   const handleNavigate = (e: any) => {
     e.preventDefault()
-    router.push('/question/1')
+    router.push('/question')
   }
 
   return (
