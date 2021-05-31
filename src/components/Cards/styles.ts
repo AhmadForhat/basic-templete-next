@@ -21,7 +21,7 @@ export const ContainerCards = styled.div<DivProps>`
   margin: 42px 0;
 `
 export const Container = styled.div<DivProps>`
-  width: 280px;
+  width: 282px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.39);
   margin: 0 auto;
   background-color: #fffeff;
