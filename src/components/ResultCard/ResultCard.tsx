@@ -17,7 +17,7 @@ import explorador from '../../assets/explorador.png'
 import boboDaCorte from '../../assets/bobo_da_corte.png'
 import amante from '../../assets/amante.png'
 
-import { Container } from './styles'
+import { Container, Score, ScoreText } from './styles'
 
 interface ResultCardProps {
   backgroundColor: string
@@ -26,6 +26,7 @@ interface ResultCardProps {
   category: string
   subtitle: string
   verses: string[]
+  score: number
 }
 
 const imageSrc = {
@@ -49,11 +50,14 @@ const ResultCard: React.FC<ResultCardProps> = ({
   fontColor,
   category,
   subtitle,
-  verses
+  verses,
+  score
 }) => (
   <>
-    <Title style={{ marginTop: '24px' }}>Resultado</Title>
     <Container backgroundColor={backgroundColor}>
+      <Score>
+        <ScoreText>{`${score}pt`}</ScoreText>
+      </Score>
       <Image
         src={imageSrc[imageName]}
         alt={imageName}
@@ -61,7 +65,12 @@ const ResultCard: React.FC<ResultCardProps> = ({
         height="268px"
       />
       <Title
-        style={{ color: fontColor, fontWeight: 'bold', marginTop: '24px' }}
+        style={{
+          color: fontColor,
+          fontWeight: 'bold',
+          margin: '24px 0 16px',
+          lineHeight: '80%'
+        }}
       >
         {`Palestrante ${category}`}
       </Title>
@@ -76,12 +85,13 @@ const ResultCard: React.FC<ResultCardProps> = ({
           style={{
             color: 'white',
             marginBottom: '8px',
-            fontSize: '14px'
+            fontSize: '16px',
+            fontWeight: 'bold'
           }}
         >
           Quem sou?
         </Text>
-        {verses.map((verse: string) => (
+        {verses?.map((verse: string) => (
           <Text key={verse} style={{ fontSize: '12px' }}>
             {verse}
           </Text>
