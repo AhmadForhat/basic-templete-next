@@ -1,4 +1,3 @@
-import React from 'hoist-non-react-statics/node_modules/@types/react'
 import styled from 'styled-components'
 
 type DivProps = React.HTMLAttributes<HTMLDivElement>
@@ -45,7 +44,7 @@ export const NumberText = styled.p<PropsNumberText>`
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  z-index: 2000;
+  z-index: 1000;
   font-size: 22px;
 `
 
@@ -64,3 +63,5 @@ export const Text = styled.p<TextPrps>`
   font-size: 12px;
   margin: 12px 0;
 `
+
+export const Image = styled.image``
