@@ -2,6 +2,7 @@ import sabia from '../assets/sabia.svg'
 
 const arrayCards = [
   {
+    key: 'sabia',
     number: 1,
     subTitle: 'SABIA',
     backgroundColor: '#C5677F',
@@ -10,6 +11,7 @@ const arrayCards = [
     pathImage: 'sabia'
   },
   {
+    key: 'caraComum',
     number: 2,
     subTitle: 'CARA COMUM',
     backgroundColor: '#0B2C4B',
@@ -18,6 +20,7 @@ const arrayCards = [
     pathImage: 'caraComum'
   },
   {
+    key: 'criativo',
     number: 3,
     subTitle: 'CRIATIVO',
     backgroundColor: '#D4801D',
@@ -26,6 +29,7 @@ const arrayCards = [
     pathImage: 'criativo'
   },
   {
+    key: 'foraDalei',
     number: 4,
     subTitle: 'FORA DA LEI',
     backgroundColor: '#071434',
@@ -34,6 +38,7 @@ const arrayCards = [
     pathImage: 'foraDaLei'
   },
   {
+    key: 'inocnete',
     number: 5,
     subTitle: 'INOCENTE',
     backgroundColor: '#A071B9',
@@ -42,6 +47,7 @@ const arrayCards = [
     pathImage: 'inocente'
   },
   {
+    key: 'heroi',
     number: 6,
     subTitle: 'HERÓI',
     backgroundColor: '#D7AA13',
@@ -50,6 +56,7 @@ const arrayCards = [
     pathImage: 'heroi'
   },
   {
+    key: 'governante',
     number: 7,
     subTitle: 'GOVERNANTE',
     backgroundColor: '#6B3916',
@@ -58,6 +65,7 @@ const arrayCards = [
     pathImage: 'governante'
   },
   {
+    key: 'magico',
     number: 8,
     subTitle: 'MÁGICO',
     backgroundColor: '#3BDF80',
@@ -66,6 +74,7 @@ const arrayCards = [
     pathImage: 'magico'
   },
   {
+    key: 'prestativo',
     number: 9,
     subTitle: 'PRESTATIVO',
     backgroundColor: '#843C23',
@@ -74,6 +83,7 @@ const arrayCards = [
     pathImage: 'prestativo'
   },
   {
+    key: 'explorador',
     number: 10,
     subTitle: 'EXPLORADOR',
     backgroundColor: '#3CA65C',
@@ -82,6 +92,7 @@ const arrayCards = [
     pathImage: 'explorador'
   },
   {
+    key: 'boboDaCorte',
     number: 11,
     subTitle: 'BOOBO DA CORTE',
     backgroundColor: '#C70077',
@@ -90,6 +101,7 @@ const arrayCards = [
     pathImage: 'boboDaCorte'
   },
   {
+    key: 'amante',
     number: 12,
     subTitle: 'AMANTE',
     backgroundColor: '#BD0162',

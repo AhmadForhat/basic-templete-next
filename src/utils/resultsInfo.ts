@@ -58,7 +58,7 @@ const resultInfo = {
       'Eu sou o Criativo'
     ]
   },
-  foraDalei: {
+  foraDaLei: {
     backgroundColor: '#071434',
     imageName: 'foraDaLei',
     fontColor: '#991B1E',

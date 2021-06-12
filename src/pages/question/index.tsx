@@ -16,6 +16,7 @@ const Question: React.FC = () => {
   const [questionPage, setQuestionPage] = useState('wise')
   const [currentPage, setCurrentPage] = useState(0)
   const [currentList, setCurrentList] = useState([0])
+  const [goToResult, setGoToResult] = useState(false)
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [hasInvalidPontuation, setHasInvalidPontuation] = useState(false)
   const { isFallback } = useRouter()
@@ -34,7 +35,7 @@ const Question: React.FC = () => {
         Object.values(currentPageData.questions).reduce(
           (curr, prev) => curr + prev.pontuation,
           0
-        ) * 3.3333
+        )
       )
       const newPage = currentPage + 1
       setCurrentList(prev => [...prev, newPage])
@@ -54,7 +55,7 @@ const Question: React.FC = () => {
         Object.values(currentPageData.questions).reduce(
           (curr, prev) => curr + prev.pontuation,
           0
-        ) * 3.3333
+        )
       )
       setQuestions(prev => ({
         ...prev,
@@ -63,10 +64,7 @@ const Question: React.FC = () => {
           result: resultSum
         }
       }))
-
-      localStorage.setItem('questions', JSON.stringify(questions))
-
-      router.push('/result/1')
+      setGoToResult(true)
     }
     setHasInvalidPontuation(true)
   }
@@ -87,6 +85,13 @@ const Question: React.FC = () => {
   if (isFallback) {
     return <p>...carregando</p>
   }
+
+  useEffect(() => {
+    if (goToResult) {
+      localStorage.setItem('questions', JSON.stringify(questions))
+      router.push('/result')
+    }
+  }, [goToResult])
 
   useEffect(() => {
     setCurrentPageData(QUESTIONS_DATA[questionPage])

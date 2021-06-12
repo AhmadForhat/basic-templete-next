@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
-export default createGlobalStyle`
-
+export const GlobalStyle = createGlobalStyle`
   * {
     margin:0;
     padding:0;
@@ -12,6 +11,7 @@ export default createGlobalStyle`
   body {
     background: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.gray};
+    box-sizing: border-box;
   }
 
   button {
