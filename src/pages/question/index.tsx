@@ -72,7 +72,6 @@ const Question: React.FC = () => {
   }
 
   const handleSelectedQuestion = (pontuation: number, item: string) => {
-    console.warn(pontuation, item)
     setCurrentPageData({
       ...currentPageData,
       questions: {
@@ -91,7 +90,6 @@ const Question: React.FC = () => {
 
   useEffect(() => {
     setCurrentPageData(QUESTIONS_DATA[questionPage])
-    console.warn('>>> questions', questions)
   }, [questionPage])
 
   return (
