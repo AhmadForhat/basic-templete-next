@@ -1,5 +1,6 @@
 {
   "wise": {
+    "key": "sabia",
     "questions": {
       "0": {
         "question": "Procuro analisar todos os prós e contras de uma situação antes de tomar uma decisão",
@@ -29,6 +30,7 @@
     "result": 0
   },
   "ordinary_guy": {
+    "key": "caraComum",
     "questions": {
       "0": {
         "question": "Ser discreto é importante",
@@ -58,6 +60,7 @@
     "result": 0
   },
   "creative": {
+    "key": "criativo",
     "questions": {
       "0": {
         "question": "Minha casa e minha roupa têm cores fortes",
@@ -87,6 +90,7 @@
     "result": 0
   },
   "outlaw": {
+    "key": "foraDaLei",
     "questions": {
       "0": {
         "question": "Não tenho receio de ser politicamente incorreto",
@@ -116,6 +120,7 @@
     "result": 0
   },
   "ruler": {
+    "key": "governante",
     "questions": {
       "0": {
         "question": "Penso que, diante de um erro, justificativas são uma perda de tempo ",
@@ -145,6 +150,7 @@
     "result": 0
   },
   "mage": {
+    "key": "magico",
     "questions": {
       "0": {
         "question": "Sigo minha intuição quando tenho que tomar uma decisão importante",
@@ -174,6 +180,7 @@
     "result": 0
   },
   "stew": {
+    "key": "inocente",
     "questions": {
       "0": {
         "question": "Procuro descontrair um ambiente tenso",
@@ -203,6 +210,7 @@
     "result": 0
   },
   "helpful": {
+    "key": "prestativo",
     "questions": {
       "0": {
         "question": "Penso no bem-estar do outro antes do meu",
@@ -232,6 +240,7 @@
     "result": 0
   },
   "hero": {
+    "key": "heroi",
     "questions": {
       "0": {
         "question": "Tenho prazer em realizar atividades físicas que exigem superação de metas",
@@ -261,6 +270,7 @@
     "result": 0
   },
   "explorer": {
+    "key": "explorador",
     "questions": {
       "0": {
         "question": "Não gosto de dar satisfações da minha vida particular",
@@ -290,6 +300,7 @@
     "result": 0
   },
   "lover": {
+    "key": "amante",
     "questions": {
       "0": {
         "question": "Gosto de ambientes e lugares bonitos ",
