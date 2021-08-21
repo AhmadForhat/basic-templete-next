@@ -45,6 +45,14 @@ export default class MyDocument extends Document {
             rel="icon"
             href="https://static.wixstatic.com/media/dfb512_26e3a20de60740ef9801e17ebb435c52~mv2.png/v1/fill/w_60,h_53,al_c,q_85,usm_0.66_1.00_0.01/LOGO%20_%20Fernanda%20_%20BRANCdO.webp"
           />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+            rel="stylesheet"
+          />
         </Head>
         <body>
           <Main />
