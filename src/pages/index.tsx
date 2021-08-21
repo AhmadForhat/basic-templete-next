@@ -16,7 +16,7 @@ const Home: React.FC = () => {
     <>
       <Menu />
       <Head>
-        <title>Homepage</title>
+        <title>Teste de Arquétipos</title>
       </Head>
       <Container>
         {showLeadCapture && <Modal close={closeModal} />}
