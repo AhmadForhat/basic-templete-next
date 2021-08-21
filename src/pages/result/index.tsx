@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useRouter } from 'next/dist/client/router'
-import { Container } from './styles'
+import { Container } from '../../styles/Result'
 
 import Menu from '../../components/Menu'
 import ResultCard from '../../components/ResultCard'

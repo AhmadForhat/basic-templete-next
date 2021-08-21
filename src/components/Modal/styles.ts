@@ -1,6 +1,7 @@
+import React from 'react'
 import styled from 'styled-components'
 
-interface InputProps {
+interface InputProps extends React.InsHTMLAttributes<HTMLInputElement> {
   error: boolean
 }
 

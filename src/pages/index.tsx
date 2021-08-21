@@ -5,7 +5,7 @@ import Menu from '../components/Menu'
 import Cards from '../components/Cards'
 import Banner from '../components/Banner'
 
-import { Container } from '../styles/Home'
+import { Container } from '../styles/Quetion'
 import Modal from '../components/Modal/Modal'
 const Home: React.FC = () => {
   const [showLeadCapture, setShowLeadCapture] = useState(false)

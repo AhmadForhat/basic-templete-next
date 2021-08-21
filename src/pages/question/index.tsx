@@ -8,7 +8,7 @@ import Button from '../../components/Button'
 import EachQuestion from '../../components/EachQuestion'
 import QUESTIONS_DATA from '../../../questions.json'
 
-import { Container, ButtonContainer } from './styles'
+import { Container, ButtonContainer } from '../../styles/Quetion'
 
 const Question: React.FC = () => {
   const [questions, setQuestions] = useState(QUESTIONS_DATA)
