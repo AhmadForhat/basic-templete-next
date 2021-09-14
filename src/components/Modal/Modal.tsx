@@ -20,6 +20,8 @@ interface IModal {
 
 const Modal: React.FC<IModal> = ({ close }) => {
   const router = useRouter()
+  const [age, setAge] = useState(null)
+  const [ageError, setAgeError] = useState(false)
   const [name, setName] = useState('')
   const [nameError, setNameError] = useState(false)
   const [email, setEmail] = useState('')
@@ -31,6 +33,16 @@ const Modal: React.FC<IModal> = ({ close }) => {
       setName(nameValue)
       setNameError(false)
     } else setNameError(true)
+  }
+
+  const handleAgeChange = (event: React.FormEvent<HTMLInputElement>) => {
+    const value = (event.target as HTMLInputElement).value.trim()
+    const valueDataType = Number(value) === Number(value) * 1
+    const valueRange = Number(value) > 10 && Number(value) < 100
+    if (value && valueDataType && valueRange) {
+      setAge(value)
+      setAgeError(false)
+    } else setAgeError(true)
   }
 
   const handleEmailChange = (event: React.FormEvent<HTMLInputElement>) => {
@@ -45,7 +57,7 @@ const Modal: React.FC<IModal> = ({ close }) => {
     event.preventDefault()
     if (!nameError && !emailError) {
       try {
-        await addLead({ name, email })
+        await addLead({ name, email, age })
       } catch (error) {
         console.error(error)
       } finally {
@@ -74,6 +86,12 @@ const Modal: React.FC<IModal> = ({ close }) => {
             placeholder="E-mail"
             onChange={handleEmailChange}
             error={emailError}
+          />
+          <Input
+            type="text"
+            placeholder="Idade"
+            onChange={handleAgeChange}
+            error={ageError}
           />
           <Button type="submit">Enviar</Button>
         </Form>

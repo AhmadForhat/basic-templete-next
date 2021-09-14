@@ -14,11 +14,17 @@ interface IBanner {
 const Banner: React.FC<IBanner> = ({ onClick }) => {
   return (
     <Container>
-      <Title style={{ marginTop: '24px' }}>Teste de arquétipos</Title>
+      <Title style={{ marginTop: '24px' }}>
+        Nós temos 12 arquétipos dentro de nós
+      </Title>
       <Text style={{ marginTop: '24px' }}>
-        Cada arquétipo tem a sua força, medo, potências e sua fraqueza. Saber
-        esse pontos são a chave que você precisa buscar não só um maior
-        autoconhecimento mas um maior domínio sobre sí.
+        Arquétipos são padrões universais baseados em mitos e símbolos. Quanto
+        mais você souber sobre os seus arquétipos, mais você aprenderá sobre os
+        seus pensamentos, suas ações e suas potências
+      </Text>
+      <Text style={{ marginTop: '24px' }}>
+        Sua jornada e suas experiências desenvolveram alguns arquétipos mais do
+        que outros.
       </Text>
       <ButtonContainer>
         <Button style={{ width: '126px' }} onClick={onClick}>

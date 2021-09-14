@@ -4,7 +4,7 @@ const themes = {
     gray: '#707070',
     grayLight: '#9E9FA3',
     grayLighter: '#BFBFBF',
-    text: '#9E9FA3',
+    text: '#3D3D3D',
     primaryDarker: '#1B0418',
     primaryDark: '#470B3F',
     primary: '#5E0E53',

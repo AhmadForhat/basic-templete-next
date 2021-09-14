@@ -328,5 +328,35 @@
       }
     },
     "result": 0
+  },
+  "fool": {
+    "key": "boboDaCorte",
+    "questions": {
+      "0": {
+        "question": "Procuro descontrair um ambiente tenso",
+        "pontuation": null
+      },
+      "1": {
+        "question": "Vejo graça em quase tudo",
+        "pontuation": null
+      },
+      "2": {
+        "question": "Adoro contar piadas e histórias engraçadas",
+        "pontuation": null
+      },
+      "3": {
+        "question": "Perco o amigo, mas não perco a piada",
+        "pontuation": null
+      },
+      "4": {
+        "question": "Não deixo de dormir por causa dos problemas",
+        "pontuation": null
+      },
+      "5": {
+        "question": "Dificilmente fico estressado com as pessoas ou as situações",
+        "pontuation": null
+      }
+    },
+    "result": 0
   }
 }

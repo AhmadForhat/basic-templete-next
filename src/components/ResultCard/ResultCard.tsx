@@ -76,27 +76,15 @@ const ResultCard: React.FC<ResultCardProps> = ({
       </Title>
       <Title
         type="subTitle"
-        style={{ fontSize: '14px', marginBottom: '12px', color: 'white' }}
+        style={{ fontSize: '18px', marginBottom: '12px', color: 'white' }}
       >
         {subtitle}
       </Title>
-      <Text style={{ color: 'white' }}>
-        <Text
-          style={{
-            color: 'white',
-            marginBottom: '8px',
-            fontSize: '16px',
-            fontWeight: 'bold'
-          }}
-        >
-          Quem sou?
+      {verses?.map((verse: string, index) => (
+        <Text key={index} style={{ fontSize: '16px', color: fontColor }}>
+          {verse}
         </Text>
-        {verses?.map((verse: string) => (
-          <Text key={verse} style={{ fontSize: '12px' }}>
-            {verse}
-          </Text>
-        ))}
-      </Text>
+      ))}
     </Container>
   </>
 )

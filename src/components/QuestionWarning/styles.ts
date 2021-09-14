@@ -43,7 +43,6 @@ export const CloseButton = styled.button`
 `
 
 export const Title = styled.h2`
-  width: 134px;
   line-height: 110%;
   font-size: 24px;
   font-family: Poppins, Arial, Helvetica, sans-serif;
@@ -82,5 +81,4 @@ export const Button = styled.button`
   font-size: 18px;
   font-weight: bold;
   font-family: Poppins, Arial, Helvetica, sans-serif;
-  cursor: pointer;
 `
