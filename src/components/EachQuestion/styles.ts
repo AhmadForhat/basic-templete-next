@@ -6,7 +6,7 @@ interface OptionProp {
 
 export const Container = styled.div`
   font-size: 16px;
-  color: #bfbfbf;
+  color: ${({ theme }) => theme.colors.text};
   font-weight: bold;
   width: 280px;
   margin-top: 40px;

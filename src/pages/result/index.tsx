@@ -28,9 +28,9 @@ const Result: React.FC = () => {
     <>
       <Menu />
       <Container>
-        {results?.map(eachResult => (
+        {results?.map((eachResult, index) => (
           <ResultCard
-            key={eachResult}
+            key={index}
             {...resultsInfo[eachResult.key]}
             score={eachResult.result}
           />

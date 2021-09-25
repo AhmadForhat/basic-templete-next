@@ -5,7 +5,9 @@ import Logo from '../../assets/logo.svg'
 
 const Menu: React.FC = () => (
   <Container>
-    <Logo />
+    <a href="/">
+      <Logo />
+    </a>
   </Container>
 )
 

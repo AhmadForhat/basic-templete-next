@@ -7,11 +7,11 @@ const token = 'Bearer 0586907c4f941f17ceca3742d85b94e1'
 export default async (request: NextApiRequest, response: NextApiResponse) => {
   const listId = '1342c1d376'
   const url = `https://us2.api.mailchimp.com/3.0/lists/${listId}/members`
-  const { name, email } = request.body
+  const { name, email, age } = request.body
   const data = {
     email_address: email,
     status: 'subscribed',
-    tags: ['arquetipos'],
+    tags: ['arquetipos', age],
     full_name: name
   }
 
@@ -19,11 +19,9 @@ export default async (request: NextApiRequest, response: NextApiResponse) => {
     const result = await axios.post(url, data, {
       headers: { Authorization: token }
     })
-
     return response.json(result.data)
   } catch (error) {
     console.error({ error: error.response.data.errors })
-
     return response.json({ error: 'algo deu errado' })
   }
 }
