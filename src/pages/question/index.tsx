@@ -7,11 +7,11 @@ import Text from '../../components/Text'
 import Button from '../../components/Button'
 import EachQuestion from '../../components/EachQuestion'
 import QUESTIONS_DATA from '../../../questions.json'
-import { Transition, CSSTransition } from 'react-transition-group'
+import { CSSTransition } from 'react-transition-group'
 
 import { Container, ButtonContainer } from '../../styles/Quetion'
 import QuestionWarning from '../../components/QuestionWarning/QuestionWarning'
-import { Main } from './styles'
+import { Main } from '../../styles/question'
 
 const Question: React.FC = () => {
   const [questions, setQuestions] = useState(QUESTIONS_DATA)
